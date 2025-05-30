@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/municipios")
-@PreAuthorize("hasAnyRole('ADMINISTRADOR', 'AUXILIAR_REGISTRO')")
+@PreAuthorize("hasAnyRole('Administrador', 'Auxiliar_Registro')")
 public class MunicipioController {
 
     private final IComercianteService comercianteService;

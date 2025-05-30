@@ -2,6 +2,7 @@ package com.comercio.adapter.repository;
 
 import com.comercio.domain.model.Comerciante;
 import com.comercio.domain.port.IComercianteRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.*;
 import org.springframework.stereotype.Repository;

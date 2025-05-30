@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/comerciantes")
-@PreAuthorize("hasAnyRole('ADMINISTRADOR', 'AUXILIAR_REGISTRO')")
+@PreAuthorize("hasAnyRole('Administrador', 'Auxiliar_Registro')")
 public class ComercianteController {
 
     @Autowired
@@ -76,7 +76,7 @@ public class ComercianteController {
         }
     }
 
-    @PreAuthorize("hasRole('ADMINISTRADOR')")
+    @PreAuthorize("hasRole('Administrador')")
     @DeleteMapping("/{id}")
     public ResponseEntity<ApiResponse> eliminar(@PathVariable Long id) {
         try {

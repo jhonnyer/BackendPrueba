@@ -1,6 +1,8 @@
 package com.comercio.adapter.repository;
 
 import com.comercio.domain.model.Usuario;
+import com.comercio.domain.port.IUsuarioRepository;
+
 import org.springframework.stereotype.Repository;
 
 import java.util.Optional;

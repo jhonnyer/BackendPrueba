@@ -1,4 +1,4 @@
-package com.comercio.adapter.repository;
+package com.comercio.domain.port;
 
 import com.comercio.domain.model.Usuario;
 
