@@ -1,0 +1,11 @@
+# Ignorar todos los builds de Maven
+**/target/
+
+# Ignorar configuración de IDEs
+.idea/
+*.iml
+
+# Ignorar archivos del sistema
+.DS_Store
+.project
+.settings/
