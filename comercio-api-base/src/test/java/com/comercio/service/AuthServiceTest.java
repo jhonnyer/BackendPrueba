@@ -1,7 +1,7 @@
 package com.comercio.service;
 
 import com.comercio.domain.model.Usuario;
-import com.comercio.adapter.repository.IUsuarioRepository;
+import com.comercio.domain.port.IUsuarioRepository;
 import com.comercio.dto.AuthRequest;
 import com.comercio.dto.AuthResponse;
 import com.comercio.security.JwtTokenProvider;

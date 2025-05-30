@@ -1,6 +1,8 @@
-package com.comercio.service;
+package com.comercio.service.impl;
 
 import com.comercio.dto.ComercianteCsvDTO;
+import com.comercio.service.IReporteService;
+
 import oracle.jdbc.OracleTypes;
 import org.springframework.jdbc.core.CallableStatementCallback;
 import org.springframework.jdbc.core.JdbcTemplate;
